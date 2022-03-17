@@ -100,7 +100,7 @@ For **frequencies up to about 500 Hz**, the frequency scale and the Mel Scale ar
 
 The frequency f (hertz) can be converted to m (mel) as follows:
 
-$ m = 2595 log_{10} (1 + \frac{f}{700}) $
+<img src="https://render.githubusercontent.com/render/math?math=m = 2595 log_{10} (1 + \frac{f}{700})">
 
 ## Mel spectrograms
 
