@@ -1,8 +1,6 @@
 # Speech Emotion Recognition
 
-[Installation Guide](#installation)
-
-<br>
+---
 
 # Abstract
 
@@ -175,7 +173,7 @@ Basically, the Mel Scale (as seen below) is a logarithmic transformation of a si
 
 
 ```python
-Image("data/images/Mel-Skala.jpg", width=500, height=500)
+Image("data/images/mel-scale.jpg", width=500, height=500)
 ```
 
 
@@ -210,7 +208,7 @@ plt.colorbar(format='%+2.0f dB')
 
 
 
-    <matplotlib.colorbar.Colorbar at 0x23b0117da80>
+    <matplotlib.colorbar.Colorbar at 0x1d8fa57da80>
 
 
 
@@ -239,7 +237,7 @@ The following image serves to illustrate the chroma features:
 
 
 ```python
-Image("data/images/Chromagram.png", width=600, height=600)
+Image("data/images/chromagram.png", width=600, height=600)
 ```
 
 
@@ -508,56 +506,3 @@ https://www.researchgate.net/publication/330796993_Chroma_Feature_Extraction
 https://www.aes.org/e-lib/browse.cfm?elib=15010  
 RAVDESS dataset: https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio  
 How to make a speech emotion recognizer: https://www.thepythoncode.com/article/building-a-speech-emotion-recognizer-using-sklearn  
-
-<br><br>
-
-
-# Installation
-
-If you are interested in testing the speech recognition scenario hands on (hearing the audio samples, recognizing your own spoken emotion, etc.), just follow this small installation guide.
-
-<br>
-
-## Requirements
-- Python 3.9
-
-<br>
-
-## Getting Started
-
-### Install OS requirements
-
-Linux and macOS users need to install some extra packages.
-
-#### Linux
-```shell
-sudo apt-get update
-sudo apt-get install portaudio19-dev libsndfile1
-```
-
-#### macOS
-```shell
-brew update
-brew install portaudio libsndfile
-```
-
-### Install Python dependencies
-
-#### Linux/macOS
-```shell
-python3 -m venv path/to/venv
-python3 source path/to/venv/bin/activate
-pip3 install -r requirements.txt
-```
-
-#### Windows
-```powershell
-python -m venv c:\path\to\venv
-path\to\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-### Start Jupyter Notebook
-```shell
-jupyter notebook
-```
