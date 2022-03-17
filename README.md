@@ -94,7 +94,7 @@ Basically, the Mel Scale (as seen below) is a logarithmic transformation of a si
 Image("data/images/mel-scale.jpg", width=500, height=500)
 ```
 
-![jpeg](output_17_0.jpg)
+![jpeg](data/images/mel-scale.jpg)
 
 For **frequencies up to about 500 Hz**, the frequency scale and the Mel Scale are almost proportional. Thus, a doubling of frequency from 100 Hz to 200 Hz results in a doubling of tonality from 100 mel to 200 mel (as perceived in the example of tones). For **frequencies greater than 500 Hz**, frequency and tonality have a nonlinear relationship. For example, the frequency of a tone must be increased from 1500 Hz to 10,000 Hz to achieve a doubling of tonality from 1100 mel to 2200 mel. I.e., in this frequency range, tone intervals are perceived to be smaller than they actually are.
 
@@ -115,7 +115,7 @@ plt.title('Mel Spectrogram')
 plt.colorbar(format='%+2.0f dB')
 ```
 
-![png](output_21_1.png)
+![png](data/images/mel-spectrogram.png)
     
 
 ## Mel Frequency Cepstral Coefficients (MFCC)
@@ -139,7 +139,7 @@ The following image serves to illustrate the chroma features:
 Image("data/images/chromagram.png", width=600, height=600)
 ```
  
-![png](output_24_0.png)
+![png](data/images/chromagram.png)
 
 
 # Labels
