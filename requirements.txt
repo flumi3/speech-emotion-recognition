@@ -1,0 +1,7 @@
+numpy==1.21.0
+librosa==0.8.1
+soundfile==0.10.3.post1
+scikit-learn==1.0.2
+jupyter==1.0.0
+sounddevice==0.4.4
+matplotlib==3.5.1
