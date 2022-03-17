@@ -388,7 +388,7 @@ How to make a speech emotion recognizer: https://www.thepythoncode.com/article/b
 
 # Installation
 
-If you are interested in testing the speech recognition scenario hands on (hearing the audio samples, recognizing your own spoken emotion, etc.), just follow this small installation guide.
+If you are interested in trying out the speech emotion recognition interactively (hearing the audio samples, recognizing your own spoken emotion, etc.), just follow this small installation guide.
 
 <br>
 
