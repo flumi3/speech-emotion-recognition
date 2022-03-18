@@ -345,7 +345,7 @@ def start_projection(button):
     clear_output()
 ```
 
-Here, a graphical user interface consisting of a start button is created, by pressing which the scenario can be started.
+Here, a graphical user interface consisting of a start button is created. By pressing it, the interactive scenario gets started.
 
 ```python
 start_button = Button(
