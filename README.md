@@ -1,6 +1,6 @@
 # Speech Emotion Recognition
 
-[Installation Guide](#installation)
+This README was exported by the Jupyter Notebook and provides the research project about speech emotion recognition (without interaction possibilities). If you want to listen to the audio samples or try out the emotion recognition by yourself, follow this [Installation Guide](#installation).
 
 <br>
 
